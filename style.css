@@ -1,0 +1,217 @@
+body {
+  font-size: 24px;                      
+}
+ul {
+  padding: 0;           
+  margin: 0;
+  list-style: none; 
+}
+li {
+  margin-bottom: 15px;   
+  font-size: 16px;       
+}
+input {
+  display: block;    
+  margin-top: 5px;      
+  padding: 8px;         
+  font-size: 14px;    
+  width: 100%;           
+  max-width: 300px;     
+}
+
+
+#preview-imagem {
+  height: 120px;      
+  width: 120px;        
+  object-fit: cover;   
+  border-radius: 50%;  
+  margin-bottom: 15px;
+  display: none;       
+  border: 2px solid #ccc;
+}
+
+button {
+    font-size: 24px;
+    background-color: rgb(221, 250, 192);
+    height: 45px; 
+    cursor: pointer;
+    padding: 0 15px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+/* Configuração global e cor de fundo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Caixa principal do formulário centrado */
+.container-formulario {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eef2f1;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding: 0;           
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 18px;   
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 6px;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    display: block;    
+    padding: 10px 12px;         
+    font-size: 15px;    
+    width: 100%;           
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+.campo-senha-wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.campo-senha-wrapper input {
+    flex: 1;
+    padding-right: 45px;
+}
+
+#btn-mostrar-senha {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.campo-upload, .campo-nome-imagem {
+    margin-top: 20px;
+}
+
+.label-imagem-titulo {
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="file"] {
+    font-size: 14px;
+    color: #666;
+}
+
+.preview-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.preview-container p {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+#preview-imagem {
+    height: 110px;       
+    width: 110px;        
+    object-fit: cover;   
+    border-radius: 50%;  
+    margin: 0 auto;
+    display: none; 
+    border: 3px solid #4a90e2;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.btn-enviar {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e5618;
+    background-color: #ddfac0;
+    height: 48px;
+    cursor: pointer;
+    border: 1px solid #b6e293;
+    border-radius: 6px;
+    margin-top: 25px;
+    transition: all 0.2s ease;
+}
+.btn-enviar:hover {
+    background-color: #c9f5a4;
+    border-color: #9cd471;
+    box-shadow: 0 4px 12px rgba(182, 226, 147, 0.4);
+}
+.campo-senha-wrapper {
+    display: flex;
+    position: relative; 
+    width: 100%;
+    max-width: 300px; 
+}
+
+
+.campo-senha-wrapper input {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 40px; 
+}
+
+
+#btn-mostrar-senha {
+    position: absolute;
+    right: 10px;       
+    top: 50%;          
+    transform: translateY(-40%); 
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;        
+}
